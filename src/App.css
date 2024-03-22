@@ -1,0 +1,107 @@
+body {
+  font-family: Arial;
+  padding: 30px;
+  color: #333;
+  background-image: url('./img/img-bgckg.avif');
+  background-position: center;
+  background-size: cover;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto 300px;
+  background-color: #efefef;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #416da0e3;
+  color: #fff;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 3px solid #416da0e3;
+}
+
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.complete {
+  background-color: #1c4370e3;
+}
+
+.remove {
+  background-color: #000000e3;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+input,
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 98%;
+}
+
+.filter, .search {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #416da0e3;
+}
+
+.filter-options {
+  display: block;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.filter-options div {
+  flex: 1 1;
+}
+
+.filter-options p {
+  font-weight: bold;
+}
