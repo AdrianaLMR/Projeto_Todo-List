@@ -2,14 +2,14 @@ body {
   font-family: Arial;
   padding: 30px;
   color: #333;
-  background-image: url('./img/img-bgckg.avif');
+  background-image: url('./img/img-background.png');
   background-position: center;
   background-size: cover;
 }
 
 .app {
   max-width: 800px;
-  margin: 0 auto 300px;
+  margin: 50px auto; 
   background-color: #efefef;
   padding: 20px 30px;
   border-radius: 10px;
@@ -32,7 +32,7 @@ input {
 }
 
 button {
-  background-color: #416da0e3;
+  background-color: #5aaf6ce3;
   color: #fff;
   padding: 5px 10px;
   margin-right: 10px;
@@ -49,7 +49,7 @@ button:hover {
 .todo-list {
   margin-bottom: 20px;
   padding: 20px;
-  border-bottom: 3px solid #416da0e3;
+  border-bottom: 3px solid  #195827e3;
 }
 
 .todo {
@@ -65,11 +65,11 @@ button:hover {
 }
 
 .complete {
-  background-color: #1c4370e3;
+  background-color:  #5aaf6ce3;
 }
 
 .remove {
-  background-color: #000000e3;
+  background-color: #181717e3;
 }
 
 .todo-form {
@@ -89,7 +89,7 @@ select {
   margin-left: 20px;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 3px solid #416da0e3;
+  border-bottom: 3px solid   #195827e3;
 }
 
 .filter-options {
